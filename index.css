@@ -1,0 +1,384 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+.iconesmaneiros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    height: fit-content;
+   gap: 10px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    width:100% ;
+    position: fixed;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.7), transparent);
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration:none ;
+    padding: 5px 0;
+    display: inline-block;
+    margin: 15px 10px ;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase ;
+    border-bottom:3px solid transparent;
+    transition: all 0.25 ease-in-out ;
+}
+
+nav ul li a:hover{
+    border-bottom:3px solid white;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+   
+}
+
+
+#sobremim{
+background-color: black;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+align-items: center;
+
+}
+.texto-sobre{
+    width: 60%;
+    margin-left: 70px;
+  
+}
+.div-foto{
+    margin-right: 180px;
+}
+#curriculo{
+    background-color: white;
+    
+
+}
+
+.div-curri{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 ;
+    text-align: center;    
+}
+
+.bt-download{
+    width: 20px;
+margin-left: 7px;
+
+}
+
+.download{
+    align-items: center;
+    text-align: center;
+}
+#atividades{
+    background-color: white;
+    
+
+}
+
+.port22{
+    color: #f2f2f2;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 12px ;
+    background-color: #d32047;
+}
+
+.port23{
+    color: #f2f2f2;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 12px;
+    background-color: #d32047;
+}
+.atvdds-ppe{
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.titulo-ppe{
+    color: #fff;
+}
+.div-atvdds{
+   
+   text-align: center;
+   padding-top: 60px;
+   background-color: #000000;
+   margin: auto;
+   display: flex;
+   width: 100%;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-bottom: 10px;
+
+   
+
+   
+
+  
+   
+   
+}
+
+
+#ppe{
+background-color: black;  
+}
+
+.paragrafo{
+color: white;
+width: 100%;
+font-size: 20px;
+}
+
+
+.pg1{
+    color: #d32047;
+    padding-right: 20%;
+    font-size: 90px;
+     font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.euimg{
+    width: 250px;
+  border-radius: 55%;
+}
+
+.linkedin{
+    width: 40px;
+}
+
+.github{
+    width: 40px;
+}
+
+
+.pg2{
+    color: #d32047;
+    font-size: 70px;
+     font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin: auto;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.linkcurriculo{
+color: rgb(0, 0, 0);
+}
+
+.curriculoimg{
+    width: 20%;
+    
+    margin: 0 auto ;
+    justify-content: center;
+   
+}
+
+
+
+.pg3{
+    color: #d32047;
+    font-size: 70px;
+     font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin: auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+
+
+.pg4{
+    color: #d32047;
+    font-size: 70px;
+     font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+  padding-top: 2%;
+ 
+  
+ 
+}
+
+
+
+.natureza{
+    display: inline-block; 
+}
+
+
+
+a{
+    color: #d3204700;
+}
+
+.button-medium {
+    width: 20%;
+    background-color: #d32047;
+    color: #f2f2f2;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center; 
+    align-items:center;
+    text-align: center;
+
+
+}
+.button-medium:hover{
+    background-color: #949494;
+}
+
+
+/* 
+    display: flex;
+    justify-content: center; // alinhamento horizontal
+    align-items: start; // alinhamento vertical 
+*/
+
+
+/* 
+   Atividades aqui embaixo
+*/
+
+.natureza-titulo{
+    text-align: center;
+    color: #d32047;
+}
+
+.trimestre{
+   text-align: center; 
+   font-size: 10px;
+   background-color: rgb(94, 11, 110);
+   
+}
+.atvds-natureza{
+    width: 29%;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    text-align: start margin-right 2%;
+    width: 30%;
+    margin-left: 5%;
+    color: #ffffff ;
+   
+    border: 8px solid  rgb(94, 11, 110);
+    margin-bottom: 20px;
+    
+}
+
+
+.atvdN{
+    color: rgb(0, 0, 0) ;
+    font-size: 10.5px;
+    
+}
+
+.atvdN:hover{
+    color: #9710b3 ;
+}
+
+.descricao{
+    font-size: 50%;
+    color: #fff;
+    background-color: black;
+    border-radius: 50px;
+    width: 120%;
+    text-align: center;
+    
+}
+.descricao:hover{
+    background-color: rgb(129, 129, 129);
+}
+/* 
+    descrições aqui
+*/
+.div-descricao1N {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.div-descricao1N .descricao1Ntext {
+    visibility: hidden;
+    width: 1000%;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position the tooltip above the text */
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.div-descricao1N:hover .descricao1Ntext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.btvoltar{
+    background-color: #d32047;
+    color: #000000;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 10%;
+
+}
+
+
